@@ -1,0 +1,207 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}  */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+
+.container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.nav-li {
+    display: inline-block;
+}
+
+.nav-li:not(:last-of-type) {
+    margin-right: 94px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #FA4A0C;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto 50px;
+}
+
+.app {
+    background-image: url(../img/bg1.png);
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app-pretitle {
+    font-weight: Bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.app-title {
+    font-weight: Bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+.app-text {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+}
+
+.button {
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.button:first-of-type {
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;
+}
+
+.button:last-of-type {
+    background: none;
+    border: 1px solid white;
+}
+
+.work-title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    text-align: center;
+    margin: 56px 0 70px;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobila-pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.mobila-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+}
+
+.mobila-text{
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 467px;
+}
+
+.mobbila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.mobbila-pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.mobbila-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+}
+
+.mobbila-text {
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 467px;
+}
+
+.bpp {
+    background-image: url(../img/bg2.png);
+    color: white;
+    text-align: center;
+    padding: 131px 0 131px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 131px 0 131px;
+}
+
+.bpp-title {
+    font-weight: Bold;
+    font-size: 40px;
+    line-height: 57px;
+    padding: 10px;
+}
+
+.bpp-text {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 49px; 
+    padding: 10px;
+}
+
+.bbutton {
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.bbutton:first-of-type {
+    width: 142px;
+    height: 64px;
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 16px;
+}
+
+.bbutton:last-of-type {
+    width: 173px;
+    height: 60px;
+    background: none;
+    border: 1px solid white;
+}
